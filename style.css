@@ -1,0 +1,70 @@
+body{
+	background: linear-gradient(to right, purple, #0099ff);
+	margin: 0;
+}
+topbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-radius: 1%;
+	padding: 1%;
+	margin: 1%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 15vh;
+}
+.icon{
+	width: 120px;
+	height: 120px;
+	margin: 5%;
+	position: absolute;
+	left: 1%
+	
+}
+.imgsp{
+	width: 40px;
+	height: 40px;
+}
+h2{
+	color: white;
+	text-align: center;
+}
+ul {
+    list-style: none;
+   
+    border-radius: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 25%;
+    text-align: center;
+    width: 50%;
+}
+
+li {
+	background-color: #ddd;
+    padding: 3%;
+    margin: 3%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+	border-color: #0099ff;
+}
+
+/* Cambios para el enlace dentro del <li> */
+li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+	
+}
+
+
+li a:hover {
+    background-color: #9867c5;
+	border-bottom: #333;
+    border-radius: 20px; 
+}
