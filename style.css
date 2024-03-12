@@ -70,7 +70,7 @@ li a:hover {
 }
 @media screen and (max-width: 768px) {
     h1 {
-		margin-left: 20%;
+		margin-left: 40%;
         font-size: 1.5em; /* Ajusta el tamaño del título para pantallas más pequeñas */
     }
 	h2{
